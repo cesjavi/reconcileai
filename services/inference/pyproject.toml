@@ -1,0 +1,5 @@
+[project]
+name = "reconcileai-inference"
+version = "0.2.0"
+requires-python = ">=3.11"
+dependencies = ["httpx", "pydantic>=2"]

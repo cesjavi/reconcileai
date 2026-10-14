@@ -1,0 +1,65 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-reconcileai}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: ${POSTGRES_DB:-reconcileai}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-reconcileai}"]
+      interval: 5s
+      retries: 10
+
+  api:
+    build:
+      context: .
+      dockerfile: apps/api/Dockerfile
+    environment:
+      DATABASE_URL: postgresql+psycopg://${POSTGRES_USER:-reconcileai}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-reconcileai}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:3000}
+      WINDOW_DAYS: ${WINDOW_DAYS:-3}
+      AI_WINDOW_DAYS: ${AI_WINDOW_DAYS:-30}
+      AUTO_MATCH_RULES: ${AUTO_MATCH_RULES:-R1}
+      INFERENCE_PROVIDER: ${INFERENCE_PROVIDER:-mock}
+      INFERENCE_BASE_URL: ${INFERENCE_BASE_URL:-}
+      INFERENCE_API_KEY: ${INFERENCE_API_KEY:-}
+      INFERENCE_MODEL: ${INFERENCE_MODEL:-}
+      INFERENCE_TIMEOUT_S: ${INFERENCE_TIMEOUT_S:-30}
+      INFERENCE_MAX_RETRIES: ${INFERENCE_MAX_RETRIES:-2}
+      INFERENCE_HARDWARE_LABEL: ${INFERENCE_HARDWARE_LABEL:-}
+      EVOLUS_MODE: ${EVOLUS_MODE:-disabled}
+      EVOLUS_API_KEY: ${EVOLUS_API_KEY:-}
+      EVOLUS_APPLICATION_ID: ${EVOLUS_APPLICATION_ID:-}
+      EVOLUS_WORKFLOW_ID: ${EVOLUS_WORKFLOW_ID:-}
+      EVOLUS_EXTRACTOR_AGENT_ID: ${EVOLUS_EXTRACTOR_AGENT_ID:-}
+      EVOLUS_EXTRACTOR_ID: ${EVOLUS_EXTRACTOR_ID:-}
+      AGENT_API_TOKEN: ${AGENT_API_TOKEN:-}
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "8000:8000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request as u; u.urlopen('http://localhost:8000/ready')"]
+      interval: 10s
+      retries: 6
+
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+      args:
+        NEXT_PUBLIC_API_URL: ${NEXT_PUBLIC_API_URL:-http://localhost:8000}
+    environment:
+      HOSTNAME: 0.0.0.0
+    depends_on:
+      api:
+        condition: service_healthy
+    ports:
+      - "3000:3000"
+
+volumes:
+  pgdata:

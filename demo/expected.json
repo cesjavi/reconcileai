@@ -1,0 +1,1085 @@
+{
+ "params": {
+  "window_days": 3,
+  "ai_window_days": 30,
+  "auto_match_rules": "R1",
+  "extractor": "mock"
+ },
+ "rows": {
+  "bank_lines": 110,
+  "bank_unique": 109,
+  "deposits": 108,
+  "duplicates_in_file": 1
+ },
+ "bank": {
+  "B0001": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0001"
+   ]
+  },
+  "B0002": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0002"
+   ]
+  },
+  "B0003": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0003"
+   ]
+  },
+  "B0004": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0004"
+   ]
+  },
+  "B0005": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0005"
+   ]
+  },
+  "B0006": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0006"
+   ]
+  },
+  "B0007": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0007"
+   ]
+  },
+  "B0008": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0008"
+   ]
+  },
+  "B0009": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0009"
+   ]
+  },
+  "B0010": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0010"
+   ]
+  },
+  "B0011": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0011"
+   ]
+  },
+  "B0012": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0012"
+   ]
+  },
+  "B0013": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0013"
+   ]
+  },
+  "B0014": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0014"
+   ]
+  },
+  "B0015": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0015"
+   ]
+  },
+  "B0016": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0016"
+   ]
+  },
+  "B0017": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0017"
+   ]
+  },
+  "B0018": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0018"
+   ]
+  },
+  "B0019": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0019"
+   ]
+  },
+  "B0020": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0020"
+   ]
+  },
+  "B0021": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0021"
+   ]
+  },
+  "B0022": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0022"
+   ]
+  },
+  "B0023": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0023"
+   ]
+  },
+  "B0024": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0024"
+   ]
+  },
+  "B0025": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0025"
+   ]
+  },
+  "B0026": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0026"
+   ]
+  },
+  "B0027": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0027"
+   ]
+  },
+  "B0028": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0028"
+   ]
+  },
+  "B0029": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0029"
+   ]
+  },
+  "B0030": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0030"
+   ]
+  },
+  "B0031": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0031"
+   ]
+  },
+  "B0032": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0032"
+   ]
+  },
+  "B0033": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0033"
+   ]
+  },
+  "B0034": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0034"
+   ]
+  },
+  "B0035": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0035"
+   ]
+  },
+  "B0036": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0036"
+   ]
+  },
+  "B0037": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0037"
+   ]
+  },
+  "B0038": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0038"
+   ]
+  },
+  "B0039": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0039"
+   ]
+  },
+  "B0040": {
+   "status": "MATCHED",
+   "rule": "R1",
+   "deposits": [
+    "D0040"
+   ]
+  },
+  "B0041": {
+   "status": "SUGGESTED",
+   "rule": "R2",
+   "deposits": [
+    "D0041"
+   ]
+  },
+  "B0042": {
+   "status": "SUGGESTED",
+   "rule": "R2",
+   "deposits": [
+    "D0042"
+   ]
+  },
+  "B0043": {
+   "status": "SUGGESTED",
+   "rule": "R2",
+   "deposits": [
+    "D0043"
+   ]
+  },
+  "B0044": {
+   "status": "SUGGESTED",
+   "rule": "R2",
+   "deposits": [
+    "D0044"
+   ]
+  },
+  "B0045": {
+   "status": "SUGGESTED",
+   "rule": "R2",
+   "deposits": [
+    "D0045"
+   ]
+  },
+  "B0046": {
+   "status": "SUGGESTED",
+   "rule": "R2",
+   "deposits": [
+    "D0046"
+   ]
+  },
+  "B0047": {
+   "status": "SUGGESTED",
+   "rule": "R2",
+   "deposits": [
+    "D0047"
+   ]
+  },
+  "B0048": {
+   "status": "SUGGESTED",
+   "rule": "R2",
+   "deposits": [
+    "D0048"
+   ]
+  },
+  "B0049": {
+   "status": "SUGGESTED",
+   "rule": "R2",
+   "deposits": [
+    "D0049"
+   ]
+  },
+  "B0050": {
+   "status": "SUGGESTED",
+   "rule": "R2",
+   "deposits": [
+    "D0050"
+   ]
+  },
+  "B0051": {
+   "status": "SUGGESTED",
+   "rule": "R2",
+   "deposits": [
+    "D0051"
+   ]
+  },
+  "B0052": {
+   "status": "SUGGESTED",
+   "rule": "R2",
+   "deposits": [
+    "D0052"
+   ]
+  },
+  "B0053": {
+   "status": "SUGGESTED",
+   "rule": "R2",
+   "deposits": [
+    "D0053"
+   ]
+  },
+  "B0054": {
+   "status": "SUGGESTED",
+   "rule": "R2",
+   "deposits": [
+    "D0054"
+   ]
+  },
+  "B0055": {
+   "status": "SUGGESTED",
+   "rule": "R2",
+   "deposits": [
+    "D0055"
+   ]
+  },
+  "B0056": {
+   "status": "SUGGESTED",
+   "rule": "R2",
+   "deposits": [
+    "D0056"
+   ]
+  },
+  "B0057": {
+   "status": "SUGGESTED",
+   "rule": "R2",
+   "deposits": [
+    "D0057"
+   ]
+  },
+  "B0058": {
+   "status": "SUGGESTED",
+   "rule": "R2",
+   "deposits": [
+    "D0058"
+   ]
+  },
+  "B0059": {
+   "status": "SUGGESTED",
+   "rule": "R2",
+   "deposits": [
+    "D0059"
+   ]
+  },
+  "B0060": {
+   "status": "SUGGESTED",
+   "rule": "R2",
+   "deposits": [
+    "D0060"
+   ]
+  },
+  "B0061": {
+   "status": "UNMATCHED",
+   "rule": null,
+   "deposits": []
+  },
+  "B0062": {
+   "status": "UNMATCHED",
+   "rule": null,
+   "deposits": []
+  },
+  "B0063": {
+   "status": "UNMATCHED",
+   "rule": null,
+   "deposits": []
+  },
+  "B0064": {
+   "status": "UNMATCHED",
+   "rule": null,
+   "deposits": []
+  },
+  "B0065": {
+   "status": "SUGGESTED",
+   "rule": "R3",
+   "deposits": [
+    "D0065"
+   ]
+  },
+  "B0066": {
+   "status": "SUGGESTED",
+   "rule": "R3",
+   "deposits": [
+    "D0066"
+   ]
+  },
+  "B0067": {
+   "status": "SUGGESTED",
+   "rule": "R3",
+   "deposits": [
+    "D0067"
+   ]
+  },
+  "B0068": {
+   "status": "SUGGESTED",
+   "rule": "R3",
+   "deposits": [
+    "D0068"
+   ]
+  },
+  "B0069": {
+   "status": "SUGGESTED",
+   "rule": "R3",
+   "deposits": [
+    "D0069"
+   ]
+  },
+  "B0070": {
+   "status": "SUGGESTED",
+   "rule": "R3",
+   "deposits": [
+    "D0070"
+   ]
+  },
+  "B0071": {
+   "status": "SUGGESTED",
+   "rule": "R3",
+   "deposits": [
+    "D0071"
+   ]
+  },
+  "B0072": {
+   "status": "SUGGESTED",
+   "rule": "R3",
+   "deposits": [
+    "D0072"
+   ]
+  },
+  "B0073": {
+   "status": "SUGGESTED",
+   "rule": "R3",
+   "deposits": [
+    "D0073"
+   ]
+  },
+  "B0074": {
+   "status": "SUGGESTED",
+   "rule": "R3",
+   "deposits": [
+    "D0074"
+   ]
+  },
+  "B0075": {
+   "status": "SUGGESTED",
+   "rule": "R3",
+   "deposits": [
+    "D0075"
+   ]
+  },
+  "B0076": {
+   "status": "SUGGESTED",
+   "rule": "R3",
+   "deposits": [
+    "D0076"
+   ]
+  },
+  "B0077": {
+   "status": "SUGGESTED",
+   "rule": "R3",
+   "deposits": [
+    "D0077"
+   ]
+  },
+  "B0078": {
+   "status": "SUGGESTED",
+   "rule": "R3",
+   "deposits": [
+    "D0078"
+   ]
+  },
+  "B0079": {
+   "status": "SUGGESTED",
+   "rule": "R3",
+   "deposits": [
+    "D0079"
+   ]
+  },
+  "B0080": {
+   "status": "AMBIGUOUS",
+   "rule": "R3",
+   "deposits": [
+    "D0080",
+    "D0081"
+   ]
+  },
+  "B0081": {
+   "status": "AMBIGUOUS",
+   "rule": "R3",
+   "deposits": [
+    "D0082",
+    "D0083"
+   ]
+  },
+  "B0082": {
+   "status": "AMBIGUOUS",
+   "rule": "R3",
+   "deposits": [
+    "D0084",
+    "D0085"
+   ]
+  },
+  "B0083": {
+   "status": "AMBIGUOUS",
+   "rule": "R3",
+   "deposits": [
+    "D0086",
+    "D0087"
+   ]
+  },
+  "B0084": {
+   "status": "AMBIGUOUS",
+   "rule": "R3",
+   "deposits": [
+    "D0088"
+   ]
+  },
+  "B0085": {
+   "status": "AMBIGUOUS",
+   "rule": "R3",
+   "deposits": [
+    "D0088"
+   ]
+  },
+  "B0086": {
+   "status": "AMBIGUOUS",
+   "rule": "R3",
+   "deposits": [
+    "D0089"
+   ]
+  },
+  "B0087": {
+   "status": "AMBIGUOUS",
+   "rule": "R3",
+   "deposits": [
+    "D0089"
+   ]
+  },
+  "B0088": {
+   "status": "AMBIGUOUS",
+   "rule": "R3",
+   "deposits": [
+    "D0090"
+   ]
+  },
+  "B0089": {
+   "status": "AMBIGUOUS",
+   "rule": "R3",
+   "deposits": [
+    "D0090"
+   ]
+  },
+  "B0090": {
+   "status": "SUGGESTED",
+   "rule": "R4",
+   "deposits": [
+    "D0091"
+   ]
+  },
+  "B0091": {
+   "status": "SUGGESTED",
+   "rule": "R4",
+   "deposits": [
+    "D0092"
+   ]
+  },
+  "B0092": {
+   "status": "SUGGESTED",
+   "rule": "R4",
+   "deposits": [
+    "D0093"
+   ]
+  },
+  "B0093": {
+   "status": "SUGGESTED",
+   "rule": "R4",
+   "deposits": [
+    "D0094"
+   ]
+  },
+  "B0094": {
+   "status": "SUGGESTED",
+   "rule": "R4",
+   "deposits": [
+    "D0095"
+   ]
+  },
+  "B0095": {
+   "status": "SUGGESTED",
+   "rule": "R4",
+   "deposits": [
+    "D0096"
+   ]
+  },
+  "B0096": {
+   "status": "UNMATCHED",
+   "rule": null,
+   "deposits": []
+  },
+  "B0097": {
+   "status": "UNMATCHED",
+   "rule": null,
+   "deposits": []
+  },
+  "B0098": {
+   "status": "UNMATCHED",
+   "rule": null,
+   "deposits": []
+  },
+  "B0099": {
+   "status": "UNMATCHED",
+   "rule": null,
+   "deposits": []
+  },
+  "B0100": {
+   "status": "UNMATCHED",
+   "rule": null,
+   "deposits": []
+  },
+  "B0101": {
+   "status": "UNMATCHED",
+   "rule": null,
+   "deposits": []
+  },
+  "B0102": {
+   "status": "UNMATCHED",
+   "rule": null,
+   "deposits": []
+  },
+  "B0103": {
+   "status": "UNMATCHED",
+   "rule": null,
+   "deposits": []
+  },
+  "B0104": {
+   "status": "UNMATCHED",
+   "rule": null,
+   "deposits": []
+  },
+  "B0105": {
+   "status": "UNMATCHED",
+   "rule": null,
+   "deposits": []
+  },
+  "B0106": {
+   "status": "UNMATCHED",
+   "rule": null,
+   "deposits": []
+  },
+  "B0107": {
+   "status": "UNMATCHED",
+   "rule": null,
+   "deposits": []
+  },
+  "B0108": {
+   "status": "UNMATCHED",
+   "rule": null,
+   "deposits": []
+  },
+  "B0109": {
+   "status": "UNMATCHED",
+   "rule": null,
+   "deposits": []
+  }
+ },
+ "deposits": {
+  "D0001": {
+   "status": "MATCHED"
+  },
+  "D0002": {
+   "status": "MATCHED"
+  },
+  "D0003": {
+   "status": "MATCHED"
+  },
+  "D0004": {
+   "status": "MATCHED"
+  },
+  "D0005": {
+   "status": "MATCHED"
+  },
+  "D0006": {
+   "status": "MATCHED"
+  },
+  "D0007": {
+   "status": "MATCHED"
+  },
+  "D0008": {
+   "status": "MATCHED"
+  },
+  "D0009": {
+   "status": "MATCHED"
+  },
+  "D0010": {
+   "status": "MATCHED"
+  },
+  "D0011": {
+   "status": "MATCHED"
+  },
+  "D0012": {
+   "status": "MATCHED"
+  },
+  "D0013": {
+   "status": "MATCHED"
+  },
+  "D0014": {
+   "status": "MATCHED"
+  },
+  "D0015": {
+   "status": "MATCHED"
+  },
+  "D0016": {
+   "status": "MATCHED"
+  },
+  "D0017": {
+   "status": "MATCHED"
+  },
+  "D0018": {
+   "status": "MATCHED"
+  },
+  "D0019": {
+   "status": "MATCHED"
+  },
+  "D0020": {
+   "status": "MATCHED"
+  },
+  "D0021": {
+   "status": "MATCHED"
+  },
+  "D0022": {
+   "status": "MATCHED"
+  },
+  "D0023": {
+   "status": "MATCHED"
+  },
+  "D0024": {
+   "status": "MATCHED"
+  },
+  "D0025": {
+   "status": "MATCHED"
+  },
+  "D0026": {
+   "status": "MATCHED"
+  },
+  "D0027": {
+   "status": "MATCHED"
+  },
+  "D0028": {
+   "status": "MATCHED"
+  },
+  "D0029": {
+   "status": "MATCHED"
+  },
+  "D0030": {
+   "status": "MATCHED"
+  },
+  "D0031": {
+   "status": "MATCHED"
+  },
+  "D0032": {
+   "status": "MATCHED"
+  },
+  "D0033": {
+   "status": "MATCHED"
+  },
+  "D0034": {
+   "status": "MATCHED"
+  },
+  "D0035": {
+   "status": "MATCHED"
+  },
+  "D0036": {
+   "status": "MATCHED"
+  },
+  "D0037": {
+   "status": "MATCHED"
+  },
+  "D0038": {
+   "status": "MATCHED"
+  },
+  "D0039": {
+   "status": "MATCHED"
+  },
+  "D0040": {
+   "status": "MATCHED"
+  },
+  "D0041": {
+   "status": "SUGGESTED"
+  },
+  "D0042": {
+   "status": "SUGGESTED"
+  },
+  "D0043": {
+   "status": "SUGGESTED"
+  },
+  "D0044": {
+   "status": "SUGGESTED"
+  },
+  "D0045": {
+   "status": "SUGGESTED"
+  },
+  "D0046": {
+   "status": "SUGGESTED"
+  },
+  "D0047": {
+   "status": "SUGGESTED"
+  },
+  "D0048": {
+   "status": "SUGGESTED"
+  },
+  "D0049": {
+   "status": "SUGGESTED"
+  },
+  "D0050": {
+   "status": "SUGGESTED"
+  },
+  "D0051": {
+   "status": "SUGGESTED"
+  },
+  "D0052": {
+   "status": "SUGGESTED"
+  },
+  "D0053": {
+   "status": "SUGGESTED"
+  },
+  "D0054": {
+   "status": "SUGGESTED"
+  },
+  "D0055": {
+   "status": "SUGGESTED"
+  },
+  "D0056": {
+   "status": "SUGGESTED"
+  },
+  "D0057": {
+   "status": "SUGGESTED"
+  },
+  "D0058": {
+   "status": "SUGGESTED"
+  },
+  "D0059": {
+   "status": "SUGGESTED"
+  },
+  "D0060": {
+   "status": "SUGGESTED"
+  },
+  "D0061": {
+   "status": "UNMATCHED"
+  },
+  "D0062": {
+   "status": "UNMATCHED"
+  },
+  "D0063": {
+   "status": "UNMATCHED"
+  },
+  "D0064": {
+   "status": "UNMATCHED"
+  },
+  "D0065": {
+   "status": "SUGGESTED"
+  },
+  "D0066": {
+   "status": "SUGGESTED"
+  },
+  "D0067": {
+   "status": "SUGGESTED"
+  },
+  "D0068": {
+   "status": "SUGGESTED"
+  },
+  "D0069": {
+   "status": "SUGGESTED"
+  },
+  "D0070": {
+   "status": "SUGGESTED"
+  },
+  "D0071": {
+   "status": "SUGGESTED"
+  },
+  "D0072": {
+   "status": "SUGGESTED"
+  },
+  "D0073": {
+   "status": "SUGGESTED"
+  },
+  "D0074": {
+   "status": "SUGGESTED"
+  },
+  "D0075": {
+   "status": "SUGGESTED"
+  },
+  "D0076": {
+   "status": "SUGGESTED"
+  },
+  "D0077": {
+   "status": "SUGGESTED"
+  },
+  "D0078": {
+   "status": "SUGGESTED"
+  },
+  "D0079": {
+   "status": "SUGGESTED"
+  },
+  "D0080": {
+   "status": "AMBIGUOUS"
+  },
+  "D0081": {
+   "status": "AMBIGUOUS"
+  },
+  "D0082": {
+   "status": "AMBIGUOUS"
+  },
+  "D0083": {
+   "status": "AMBIGUOUS"
+  },
+  "D0084": {
+   "status": "AMBIGUOUS"
+  },
+  "D0085": {
+   "status": "AMBIGUOUS"
+  },
+  "D0086": {
+   "status": "AMBIGUOUS"
+  },
+  "D0087": {
+   "status": "AMBIGUOUS"
+  },
+  "D0088": {
+   "status": "AMBIGUOUS"
+  },
+  "D0089": {
+   "status": "AMBIGUOUS"
+  },
+  "D0090": {
+   "status": "AMBIGUOUS"
+  },
+  "D0091": {
+   "status": "SUGGESTED"
+  },
+  "D0092": {
+   "status": "SUGGESTED"
+  },
+  "D0093": {
+   "status": "SUGGESTED"
+  },
+  "D0094": {
+   "status": "SUGGESTED"
+  },
+  "D0095": {
+   "status": "SUGGESTED"
+  },
+  "D0096": {
+   "status": "SUGGESTED"
+  },
+  "D0097": {
+   "status": "UNMATCHED"
+  },
+  "D0098": {
+   "status": "UNMATCHED"
+  },
+  "D0099": {
+   "status": "UNMATCHED"
+  },
+  "D0100": {
+   "status": "UNMATCHED"
+  },
+  "D0101": {
+   "status": "UNMATCHED"
+  },
+  "D0102": {
+   "status": "UNMATCHED"
+  },
+  "D0103": {
+   "status": "UNMATCHED"
+  },
+  "D0104": {
+   "status": "UNMATCHED"
+  },
+  "D0105": {
+   "status": "UNMATCHED"
+  },
+  "D0106": {
+   "status": "UNMATCHED"
+  },
+  "D0107": {
+   "status": "UNMATCHED"
+  },
+  "D0108": {
+   "status": "UNMATCHED"
+  }
+ },
+ "bank_status_counts": {
+  "MATCHED": 40,
+  "SUGGESTED": 41,
+  "UNMATCHED": 18,
+  "AMBIGUOUS": 10
+ },
+ "deposit_status_counts": {
+  "MATCHED": 40,
+  "SUGGESTED": 41,
+  "UNMATCHED": 16,
+  "AMBIGUOUS": 11
+ }
+}
