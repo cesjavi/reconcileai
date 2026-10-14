@@ -37,7 +37,7 @@ conciliación 111 ms (24 llamadas al extractor); reejecución 29 ms. No son benc
 | Document Extractor de Evolus (PDF bancarios) | **Solo adaptador** (`extract_document`); no está conectado a la API ni a la UI | el esquema del extractor no está documentado públicamente |
 | Docker Compose / imágenes / migración en PostgreSQL | **No verificado** | Docker no está instalado en la máquina; el YAML se parsea correctamente y las migraciones corren en SQLite |
 | Python 3.12 (Dockerfile) | **No verificado** | los tests corrieron en 3.11 |
-| Repositorio público | **Hecho** | https://github.com/cesjavi/reconcileai (commit inicial; `prompt1.md` no se subió) |
+| Repositorio público | **Hecho** | https://github.com/cesjavi/reconcileai (`prompt1.md` quedó en el historial del 2.º commit; solo contiene el prompt inicial, sin secretos) |
 | Video de demo, deck, URL desplegada | **No hechos** | hay guion y estructura en `docs/pitch.md` |
 
 ## Problemas encontrados y resueltos
