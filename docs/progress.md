@@ -37,7 +37,7 @@ conciliación 111 ms (24 llamadas al extractor); reejecución 29 ms. No son benc
 | Document Extractor de Evolus (PDF bancarios) | **Solo adaptador** (`extract_document`); no está conectado a la API ni a la UI | el esquema del extractor no está documentado públicamente |
 | Docker Compose / imágenes / migración en PostgreSQL | **No verificado** | Docker no está instalado en la máquina; el YAML se parsea correctamente y las migraciones corren en SQLite |
 | Python 3.12 (Dockerfile) | **No verificado** | los tests corrieron en 3.11 |
-| Repositorio público | **No hecho** | la carpeta no es un repositorio Git; no hay remoto |
+| Repositorio público | **Hecho** | https://github.com/cesjavi/reconcileai (commit inicial; `prompt1.md` no se subió) |
 | Video de demo, deck, URL desplegada | **No hechos** | hay guion y estructura en `docs/pitch.md` |
 
 ## Problemas encontrados y resueltos
@@ -76,7 +76,7 @@ cd apps/api && DATABASE_URL=sqlite:///./x.db ../../.venv/Scripts/python -m alemb
    capturar métricas reales del monitor. **Sin esto no se puede afirmar uso de AMD.**
 2. Crear el workspace de Evolus con el código del evento, conectar el modelo, crear el workflow y una API key;
    ejecutar `EVOLUS_INTEGRATION=1`. **Sin esto no se puede afirmar uso real de Evolus.**
-3. Publicar el repositorio (Git init, revisar que no haya secretos, remoto público).
+3. ~~Publicar el repositorio~~ (hecho).
 4. Probar `docker compose up` en una máquina con Docker y corregir lo que falle.
 5. Grabar el video y armar el deck con [docs/pitch.md](pitch.md).
 6. Autenticación real de usuarios, triggers de inmutabilidad en PostgreSQL, límites de tasa.

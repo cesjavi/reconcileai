@@ -18,7 +18,7 @@ publica hora ni zona de entrega: **confirmar en la plataforma antes de depender 
   cuando estén verificadas** (ver checklist).
 - **Track:** Evolus Business Agents on AMD (y AMD como tecnología obligatoria).
 - **Tags:** FastAPI, Next.js, PostgreSQL, vLLM, ROCm, Evolus, fintech.
-- **Repositorio público:** `[PENDIENTE: URL]` — hoy la carpeta no es un repositorio Git.
+- **Repositorio público:** https://github.com/cesjavi/reconcileai (público; sin secretos según el escaneo del 2026-10-13).
 - **Aplicación/URL:** `[PENDIENTE: despliegue]`.
 - **Video / deck / portada:** `[PENDIENTE]` — guion y estructura en [pitch.md](pitch.md).
 
@@ -54,7 +54,7 @@ Leyenda: ✅ verificado · 🟡 parcial / simulado · ❌ pendiente. Solo se mar
 | Requisito | Estado | Evidencia / qué falta |
 |---|---|---|
 | App contenerizada | 🟡 | Dockerfiles y compose escritos; **no probados** (sin Docker en la máquina) |
-| Repositorio público de GitHub | ❌ | Sin Git ni remoto |
+| Repositorio público de GitHub | ✅ | https://github.com/cesjavi/reconcileai |
 | README que se ejecuta | 🟡 | Pasos locales verificados; Docker sin verificar |
 | Claves fuera del repositorio | ✅ | `.env` ignorado; búsqueda de secretos sin hallazgos (solo un token falso en un test); `.env.example` sin valores |
 | Migraciones | ✅ | `alembic upgrade head` en SQLite; test de deriva modelos↔migraciones. PostgreSQL: sin verificar |
@@ -87,6 +87,6 @@ Leyenda: ✅ verificado · 🟡 parcial / simulado · ❌ pendiente. Solo se mar
 1. Instancia vLLM en AMD → capturas y `INFERENCE_INTEGRATION=1`.
 2. Workspace Evolus → workflow, claves y `EVOLUS_INTEGRATION=1`.
 3. `docker compose up --build` en una máquina con Docker; corregir lo que falle.
-4. `git init`, revisar `git status` (sin `.env`, `*.db`, `node_modules`), crear repo público y subir.
+4. ~~Repositorio público~~ hecho; antes de cada push revisa `git status` (sin `.env`, `*.db`, `node_modules`).
 5. Desplegar una URL (o declarar que la demo es local con video).
 6. Grabar video con [demo-script.md](demo-script.md), armar deck, actualizar este checklist y [progress.md](progress.md).
